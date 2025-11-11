@@ -793,4 +793,4 @@ plugin.openPlugin(1);
 好了,你可以去把C++搬到商店了,无需改引擎,把C++的强大填满整个Store,祝大家赚钱多多,Cocos的生态更加的强大!
 如果不会cmake,AI会帮你,AI时代学习C++难度直线降低.
 
-源码地址: [https://github.com/xiongxinwei](https://github.com/xiongxinwei)
+源码地址: [https://github.com/ankye/cocos_plugin_test](https://github.com/ankye/cocos_plugin_test)
