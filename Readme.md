@@ -134,13 +134,7 @@ graph TB
     J --> K
     K --> L
     
-    style A fill:#e1f5ff
-    style B fill:#e1f5ff
-    style C fill:#e1f5ff
-    style G fill:#fff4e1
-    style H fill:#fff4e1
-    style J fill:#e8f5e9
-    style K fill:#e8f5e9
+ 
 ```
 
 该架构图展示了 Cocos Creator 引擎如何通过不同平台的绑定机制调用统一的 C++ 插件代码。游戏代码通过引擎运行时和插件发现机制（`cc_plugin.json`）定位插件，然后根据平台选择对应的绑定方式：原生平台使用 Cocos 的 sebind 系统和 CMake 构建，Web 平台通过 Emscripten 编译为 WASM，微信小游戏则在此基础上进行适配。所有平台最终都通过插件胶水层（Glue Layer）调用同一套 C++ 核心代码，实现了"一套代码，多平台运行"的目标。
