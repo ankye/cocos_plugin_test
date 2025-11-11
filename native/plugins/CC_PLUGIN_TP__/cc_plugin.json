@@ -1,0 +1,19 @@
+{
+    "name": "CC_PLUGIN_TP__",
+    "version": "0.0.1",
+    "author": "cocoser",
+    "engine-version": ">=3.6.0",
+    "modules": [
+        {
+            "target": "COCOS_CC_PLUGIN_TP___glue",
+            "depends": [
+                "simplelog",
+                "THREE_LIB_TP__"
+            ]
+        }
+    ],
+    "support-platforms": [
+        "android",
+        "ios"
+    ]
+}

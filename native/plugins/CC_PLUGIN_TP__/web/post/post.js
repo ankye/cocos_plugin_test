@@ -1,0 +1,1 @@
+var COCOS_CC_PLUGIN_TP__=Module;if(typeof exports==="object"&&typeof module==="object"){module.exports=COCOS_CC_PLUGIN_TP__}else{if(typeof define==="function"&&define["amd"]){define([],function(){return COCOS_CC_PLUGIN_TP__})}else{if(typeof exports==="object"){exports["COCOS_CC_PLUGIN_TP__"]=COCOS_CC_PLUGIN_TP__}}}
